@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-row</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .sub{
+            background-color: gray;
+            flex-direction: row;
+            justify-items: center;
+            padding: 20px 60px 20px 60px;
+        }
+        button{
+            background-color: orange;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub">
+            <h3>basic</h3>
+            <h1>$11/month</h1>
+            <p>5GB storage</p>
+            <p>1 users</p>
+            <p>0 support</p>
+            <button>sign-up</button>
+        </div>
+        <div class="sub">
+            <h3>standart</h3>
+            <h1>$19/month</h1>
+            <p>10GB storage</p>
+            <p>5 users</p>
+            <p>phone and email support</p>
+            <button>sign-up</button>
+        </div>
+        <div class="sub">
+            <h3>premium</h3>
+            <h1>$49/month</h1>
+            <p>50GB storage</p>
+            <p>10 users</p>
+            <p>24/7 support</p>
+            <button>sign-up</button>
+        </div>
+    </div>
+</body>
+</html>
